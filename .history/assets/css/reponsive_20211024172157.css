@@ -1,0 +1,197 @@
+@media screen and (max-width: 1180px) {
+    #content .box-content {
+        flex-direction: column;
+    }
+
+    .wp-content-news {
+        margin-bottom: 20px;
+    }
+
+    .wp-content-list-caterory {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+
+    .wp-content-list-caterory .box-caterory {
+        flex-basis: 30%;
+    }
+
+    .wp-content-list-caterory .list-product {
+        flex-basis: 65%;
+
+    }
+
+    .box-product .box-body ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .box-product .box-body ul li {
+        flex-basis: 18%;
+        flex-direction: column;
+    }
+
+    .box-product .box-body ul li:last-child {
+        border-bottom: 1px solid #a69e9e;
+    }
+
+    .wp-content-list-caterory .box-banner {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .footer {
+        padding-top: 20px;
+    }
+
+    .footer .footer-content {
+        flex-direction: column;
+
+    }
+
+    .footer .footer-content .footer-info a {
+        display: block;
+        text-align: center;
+
+    }
+
+    .footer .footer-content .footer-info p {
+        padding-top: 0;
+        margin-top: 70px;
+        padding-right: 200px;
+        padding-left: 5px;
+        position: relative;
+    }
+
+    .footer .footer-content .footer-info p::before {
+        content: "Về chúng tôi ";
+        font-size: 28px;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 105%;
+
+        font-weight: 700;
+
+    }
+
+    .footer .footer-content .footer-caterory,
+    .footer .footer-content .footer-best-seller {
+        margin-top: 30px;
+    }
+
+    .footer .footer-content .footer-caterory ul,
+    .footer .footer-content .footer-best-seller ul {
+        margin-top: 20px;
+        padding: 0;
+        padding-left: 25px;
+    }
+
+    .footer .footer-content .footer-facebook {
+        padding: 0;
+        margin-top: 30px;
+
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    nav.header-main-menu {
+        display: none;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 824px) {
+    .wp-content-list-caterory .box-caterory {
+        display: none;
+    }
+
+    .wp-content-list-caterory .list-product {
+        flex-basis: 100%;
+    }
+
+    .box-product .box-body ul {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .box-product .box-body ul {
+        flex-direction: column;
+
+    }
+
+    .box-product .box-body ul li {
+        flex-direction: row;
+
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .wp-content-news ul.list-news li .more-info p.content,
+    .wp-content-news ul.list-news li .more-info p.date {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .footer .footer-content .footer-info p {
+
+        padding-right: 50px;
+
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .wp-content-news ul.list-news li {
+        flex-direction: column;
+    }
+
+    .wp-content-news ul.list-news li .more-info {
+        padding-right: 120px;
+        padding-left: 5px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .wp-content-news ul.list-news li .more-info a.title {
+        font-size: 15px;
+    }
+
+}
+@media screen  and (max-width:388px){
+    .wp-content-news img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media screen  and (max-width:320px){
+    .wp-header-top ul.icon-menu{
+        display:none;   
+    }
+}
+@media screen  and (max-width:272px){
+    .wp-header-top{
+        flex-direction: column;
+    }
+    .nav-bar{
+        margin-top: 20px;
+    }
+   
+}

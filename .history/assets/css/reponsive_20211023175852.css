@@ -1,0 +1,31 @@
+@media screen and (max-width: 1040px) {
+    nav.header-main-menu{
+        display: none;  
+    }
+    .nav-bar{
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wp-content-news ul.list-news li .more-info p.content,
+    .wp-content-news ul.list-news li .more-info p.date{
+        display:none;
+    }
+    
+}
+@media screen and (max-width: 530px) {
+    .wp-content-news ul.list-news li{
+        flex-direction: column;
+    }
+    .wp-content-news ul.list-news li .more-info{
+        padding-right: 120px;
+        padding-left: 5px;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .wp-content-news ul.list-news li a{
+        font-size: 10px;
+    }
+    
+}

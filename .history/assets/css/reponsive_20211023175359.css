@@ -1,0 +1,14 @@
+@media screen and (max-width: 1040px) {
+    nav.header-main-menu{
+        display: none;  
+    }
+    .nav-bar{
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wp-content-news ul.list-news li .more-info p.content{
+        display:none;
+    }
+    
+}
