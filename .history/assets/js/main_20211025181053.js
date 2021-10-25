@@ -7,11 +7,8 @@ $(document).ready(function() {
     }
 
     $(window).resize(function(){
-        hideMenu();
-    });
-    $(window).scroll(function(){
-        hideMenu();
-    });
+        
+    })
 
     
 });

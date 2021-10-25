@@ -6,12 +6,7 @@ $(document).ready(function() {
         $('.header-main-menu.reponsive').slideUp();
     }
 
-    $(window).resize(function(){
-        hideMenu();
-    });
-    $(window).scroll(function(){
-        hideMenu();
-    });
+    
 
     
 });

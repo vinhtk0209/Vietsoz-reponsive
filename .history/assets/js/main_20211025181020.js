@@ -5,13 +5,5 @@ $(document).ready(function() {
     function hideMenu(){
         $('.header-main-menu.reponsive').slideUp();
     }
-
-    $(window).resize(function(){
-        hideMenu();
-    });
-    $(window).scroll(function(){
-        hideMenu();
-    });
-
     
 });
